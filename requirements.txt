@@ -1,0 +1,9 @@
+torch==1.2.0
+torchvision==0.4.0
+Pillow==6.2.2
+pytorch-lightning==0.6
+kornia
+yacs
+albumentations
+torch-dct
+loguru
