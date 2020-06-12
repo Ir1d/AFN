@@ -30,7 +30,6 @@ class AFB_L1(nn.Module):
             SELayer(G0+(self.G0)*2),
             nn.Conv2d(G0+(self.G0)*2, G0, 1, padding=0, stride=1),
         )
-        self.C = C
 
     def forward(self, x):
         res = []

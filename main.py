@@ -26,6 +26,7 @@ def main(hparams):
     # init module
     # Load previous params
     # embed()
+    model = NTIRE20Model(hparams)
     if (hparams.checkpoint != ""):
         model.load_state_dict(checkpoint['state_dict'])
         logger.info(f'Trigger whole load from {hparams.checkpoint}')
