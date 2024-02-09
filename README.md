@@ -2,6 +2,9 @@
 
 [Paper](http://openaccess.thecvf.com/content_CVPRW_2020/html/w31/Xu_Moire_Pattern_Removal_via_Attentive_Fractal_Network_CVPRW_2020_paper.html) | [bibtex](#citation)
 
+**Pretrained Weight is released [here](https://drive.google.com/file/d/1EMnRnlTmPCZHTekhDh3rgcqRRJiMqPUe/view).** This is the checkpoint originally used to generate the submission in NTIRE'20. 
+Specific keys might be different because the change in pytorch lightning, but the weights should work
+
 ## Introduction
 
 Moire patterns are commonly seen artifacts when taking photos of screens and other objects with high-frequency textures. It's challenging to remove the moire patterns considering its complex color and shape. In this work, we propose an Attentive Fractal Network to effectively solve this problem. First, we construct each Attentive Fractal Block with progressive feature fusion and channel-wise attention guidance. The network is then fractally stacked with the block on each of its levels. Second, to further boost the performance, we adopt a two-stage augmented refinement strategy. With these designs, our method wins the burst demoireing track and achieves second place in single image demoireing and single image deblurring tracks in NTIRE20 Challenges. Extensive experiments demonstrate the superiority of our method for moire pattern removal compared to existing state-of-the-art methods, and prove the effectiveness of its each component.
